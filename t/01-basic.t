@@ -43,7 +43,10 @@ foreach my $constraint (@constraints)
 
     ok(!$invalid_message, $pretty_value . ' is a valid ' . $type->name) if $e_valid;
 
-    ok($invalid_message, $invalid_message // $pretty_value . ' is not a valid ' . $type->name)
+    ok(
+        $invalid_message,
+        (defined $invalid_message ? $invalid_message : $pretty_value)
+            . ' is not a valid ' . $type->name)
         if not $e_valid;
 }
 
