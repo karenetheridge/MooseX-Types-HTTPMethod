@@ -17,6 +17,6 @@
 /nytprof*
 /inc/
 .*.sw[a-z]
-/MooseX-Types-HTTPMethod-
+/MooseX-Types-HTTPMethod-*
 /todo.txt
 /todo/
