@@ -5,7 +5,6 @@ package MooseX::Types::HTTPMethod;
 
 use MooseX::Types -declare => [ qw(HTTPMethod10 HTTPMethod11 HTTPMethod) ];
 use MooseX::Types::Moose 'Str';
-use MooseX::Types::Stringlike qw(Stringlike Stringable);
 
 my @http10_methods = qw(GET POST HEAD);                     # RFC 1945
 my @http11_methods = qw(OPTIONS PUT DELETE TRACE CONNECT);  # RFC 2616
@@ -22,20 +21,20 @@ my @methods = (
 
 my %http10_methods; @http10_methods{@http10_methods} = () x @http10_methods;
 subtype HTTPMethod10,
-    as Stringlike,
-#as Str,
+    #as Stringlike,
+    as Str,
     where { exists $http10_methods{$_} };
 
 my %http11_methods = %http10_methods; @http11_methods{@http11_methods} = () x @http11_methods;
 subtype HTTPMethod11,
-#as Str,
-    as Stringlike,
+    #as Stringlike,
+    as Str,
     where { exists $http11_methods{$_} };
 
 my %methods = %http11_methods; @methods{@methods} = () x @methods;
 subtype HTTPMethod,
-#as Str,
-    as Stringlike,
+    #as Stringlike,
+    as Str,
     where { exists $methods{$_} };
 
 1;
