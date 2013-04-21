@@ -116,6 +116,8 @@ I am also usually active on irc, as 'ether' at L<irc://irc.perl.org>.
 
 =head1 SEE ALSO
 
+=for :stopwords WebDAV Versioning
+
 L<RFC 1945: HTTP 1.0|http://www.w3.org/Protocols/rfc1945/rfc1945>
 
 L<RFC 2616|http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html>
