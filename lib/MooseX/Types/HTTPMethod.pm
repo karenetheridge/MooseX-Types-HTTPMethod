@@ -110,6 +110,8 @@ the C<Foo> type
 
 =head1 SUPPORT
 
+=for stopwords irc
+
 Bugs may be submitted through L<https://rt.cpan.org/Public/Dist/Display.html?Name=MooseX-Types-HTTPMethod>.
 I am also usually active on irc, as 'ether' at L<irc://irc.perl.org>.
 
