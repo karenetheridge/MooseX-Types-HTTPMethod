@@ -117,20 +117,18 @@ I am also usually active on irc, as 'ether' at L<irc://irc.perl.org>.
 
 =head1 SEE ALSO
 
-=for :stopwords WebDAV Versioning
+=for stopwords WebDAV Versioning
 
-L<RFC 1945: HTTP 1.0|http://www.w3.org/Protocols/rfc1945/rfc1945>
+=begin :list
 
-L<RFC 2616|http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html>
+* L<RFC 1945: HTTP 1.0|http://www.w3.org/Protocols/rfc1945/rfc1945>
+* L<RFC 2616|http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html>
+* L<HTTP Extensions for Distributed Authoring -- WebDAV|http://tools.ietf.org/html/rfc2518>
+* L<Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)|http://tools.ietf.org/html/rfc3253>
+* L<Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol|http://tools.ietf.org/html/rfc3648>
+* L<Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol|http://tools.ietf.org/html/rfc3744>
+* L<PATCH Method for HTTP|https://tools.ietf.org/html/rfc5789>
 
-L<HTTP Extensions for Distributed Authoring -- WebDAV|http://tools.ietf.org/html/rfc2518>
-
-L<Versioning Extensions to WebDAV (Web Distributed Authoring and Versioning)|http://tools.ietf.org/html/rfc3253>
-
-L<Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol|http://tools.ietf.org/html/rfc3648>
-
-L<Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol|http://tools.ietf.org/html/rfc3744>
-
-L<PATCH Method for HTTP|https://tools.ietf.org/html/rfc5789>
+=end :list
 
 =cut
