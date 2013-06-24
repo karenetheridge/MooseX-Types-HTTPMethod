@@ -5,6 +5,7 @@ package MooseX::Types::HTTPMethod;
 
 use MooseX::Types -declare => [ qw(HTTPMethod10 HTTPMethod11 HTTPMethod) ];
 use MooseX::Types::Moose 'Str';
+use namespace::autoclean;
 
 my @http10_methods = qw(GET POST HEAD);                     # RFC 1945
 my @http11_methods = qw(OPTIONS PUT DELETE TRACE CONNECT);  # RFC 2616
