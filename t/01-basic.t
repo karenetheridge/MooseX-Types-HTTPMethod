@@ -2,7 +2,7 @@ use strict;
 use warnings FATAL => 'all';
 
 use Test::More tests => 22;
-use Test::NoWarnings 1.04 ':early';
+use Test::Warnings;
 
 use MooseX::Types::HTTPMethod qw(HTTPMethod10 HTTPMethod11 HTTPMethod);
 
