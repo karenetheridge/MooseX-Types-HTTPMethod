@@ -29,7 +29,12 @@ my @constraints = (
     [ HTTPMethod11,  'TRACE',   1 ],
     [ HTTPMethod11,  'CONNECT', 1 ],
     [ HTTPMethod11,  'PATCH',   0 ],
+
+    [ HTTPMethod,    'GET',     1 ],
+    [ HTTPMethod,    'HEAD',    1 ],
+    [ HTTPMethod,    'POST',    1 ],
     [ HTTPMethod,    'PATCH',   1 ],
+    [ HTTPMethod,    'COPY',    1 ],
     [ HTTPMethod,    'FOO',     0 ],
 );
 
