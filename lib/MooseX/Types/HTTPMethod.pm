@@ -69,26 +69,25 @@ __END__
 =head1 DESCRIPTION
 
 This module implements string types which validate against all
-HTTP method names currently defined by RFCs.  Multiple types are available,
-encompassing various specifications:
+HTTP method names currently defined by RFCs.
 
-=over 4
+=head1 TYPES
 
-=item HTTPMethod10
+Multiple types are available, encompassing various specifications:
+
+=head2 C<HTTPMethod10>
 
 HTTP methods defined by HTTP 1.0: GET, POST, HEAD
 
-=item HTTPMethod11
+=head2 C<HTTPMethod11>
 
 HTTP methods defined by HTTP 1.1: HTTP 1.0 plus OPTIONS, PUT, DELETE, TRACE
 and CONNECT
 
-=item HTTPMethod
+=head2 C<HTTPMethod>
 
 All HTTP methods currently defined by RFCs (HTTP 1.1 plus a whole lot more,
 mostly for WebDAV protocols)
-
-=back
 
 =head1 IMPORTED FUNCTIONS
 
