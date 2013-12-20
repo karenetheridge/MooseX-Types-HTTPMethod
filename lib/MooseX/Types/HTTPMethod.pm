@@ -94,19 +94,15 @@ mostly for WebDAV protocols)
 As with all L<MooseX::Types> types, the inclusion of one type name C<'Foo'>
 in the C<use> line will result in an import of these functions:
 
-=over 4
-
-=item C<Foo>
+=head2 C<Foo>
 
 returns the type itself (an object implementing the
 L<Moose::Meta::TypeConstraint> interface), and
 
-=item C<is_Foo>
+=head2 C<is_Foo>
 
 a function returning a bool, checking if the passed value validates against
 the C<Foo> type
-
-=back
 
 =head1 SUPPORT
 
