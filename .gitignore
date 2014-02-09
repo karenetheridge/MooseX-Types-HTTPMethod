@@ -1,3 +1,6 @@
+/.ackrc
 /.build/
-!.gitignore
-/MooseX-Types-HTTPMethod-*
+!/.gitignore
+/.latest
+/MooseX-Types-HTTPMethod-*/
+/MooseX-Types-HTTPMethod-*.tar.gz
