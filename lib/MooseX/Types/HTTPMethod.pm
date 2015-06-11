@@ -4,6 +4,8 @@ package MooseX::Types::HTTPMethod;
 # ABSTRACT: Type constraints for HTTP method names
 # vim: set ts=8 sts=4 sw=4 tw=78 et :
 
+our $VERSION = '0.002';
+
 use MooseX::Types -declare => [ qw(HTTPMethod10 HTTPMethod11 HTTPMethod) ];
 use MooseX::Types::Moose 'Str';
 use if MooseX::Types->VERSION >= 0.42, 'namespace::autoclean';
