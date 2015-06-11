@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package MooseX::Types::HTTPMethod;
 # ABSTRACT: Type constraints for HTTP method names
-# vim: set ts=8 sw=4 tw=78 et :
+# vim: set ts=8 sts=4 sw=4 tw=78 et :
 
 use MooseX::Types -declare => [ qw(HTTPMethod10 HTTPMethod11 HTTPMethod) ];
 use MooseX::Types::Moose 'Str';
