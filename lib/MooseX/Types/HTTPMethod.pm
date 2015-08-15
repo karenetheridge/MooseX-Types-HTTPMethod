@@ -2,6 +2,7 @@ use strict;
 use warnings;
 package MooseX::Types::HTTPMethod;
 # ABSTRACT: Type constraints for HTTP method names
+# KEYWORDS: moose type constraint HTTP method methods RFC
 # vim: set ts=8 sts=4 sw=4 tw=115 et :
 
 our $VERSION = '0.002';
