@@ -93,6 +93,8 @@ and CONNECT
 
 =head2 C<HTTPMethod>
 
+=for stopwords WebDAV
+
 All HTTP methods currently defined by RFCs (HTTP 1.1 plus a whole lot more,
 mostly for WebDAV protocols)
 
