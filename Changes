@@ -1,6 +1,7 @@
 Revision history for MooseX-Types-HTTPMethod
 
 {{$NEXT}}
+          - update some distribution tooling and improve tests
 
 0.001     2013-04-21 17:26:49Z
           - Initial release.
