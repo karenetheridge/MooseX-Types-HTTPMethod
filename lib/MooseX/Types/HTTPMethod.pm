@@ -5,7 +5,7 @@ package MooseX::Types::HTTPMethod;
 # KEYWORDS: moose type constraint HTTP method methods RFC
 # vim: set ts=8 sts=4 sw=4 tw=115 et :
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use MooseX::Types -declare => [ qw(HTTPMethod10 HTTPMethod11 HTTPMethod) ];
 use MooseX::Types::Moose 'Str';
