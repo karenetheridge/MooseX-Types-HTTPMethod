@@ -82,16 +82,16 @@ HTTP method names currently defined by RFCs.
 
 Multiple types are available, encompassing various specifications:
 
-=head2 C<HTTPMethod10>
+=type C<HTTPMethod10>
 
 HTTP methods defined by HTTP 1.0: GET, POST, HEAD
 
-=head2 C<HTTPMethod11>
+=type C<HTTPMethod11>
 
 HTTP methods defined by HTTP 1.1: HTTP 1.0 plus OPTIONS, PUT, DELETE, TRACE
 and CONNECT
 
-=head2 C<HTTPMethod>
+=type C<HTTPMethod>
 
 =for stopwords WebDAV
 
