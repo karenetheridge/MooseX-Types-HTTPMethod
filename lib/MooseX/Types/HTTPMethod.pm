@@ -113,13 +113,6 @@ L<Moose::Meta::TypeConstraint> interface), and
 a function returning a bool, checking if the passed value validates against
 the C<Foo> type
 
-=head1 SUPPORT
-
-=for stopwords irc
-
-Bugs may be submitted through L<https://rt.cpan.org/Public/Dist/Display.html?Name=MooseX-Types-HTTPMethod>.
-I am also usually active on irc, as 'ether' at L<irc://irc.perl.org>.
-
 =head1 SEE ALSO
 
 =for stopwords WebDAV Versioning
